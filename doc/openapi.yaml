@@ -5,7 +5,9 @@ info:
   description: 'Back-end API for reviewing movies from user to other user. Middleware, authentication, and authorization assignment.'
 servers:
   - url: http://localhost:2020/ 
-    description: 'Deployment Server' 
+    description: 'Deployment Server'
+  - url: https://weak-blue-cow-hose.cyclic.app/ 
+    description: 'Deployment Server 2'
 paths:
   /:
     get:
